@@ -1,0 +1,1 @@
+This example demonstrates a common error in Perl when using the `each` function to iterate over a hash and modifying the hash concurrently.  The `each` function relies on an internal pointer to track its position. Deleting elements disrupts this, causing the loop to miss entries or become unpredictable.
